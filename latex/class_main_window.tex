@@ -1,0 +1,413 @@
+\hypertarget{class_main_window}{\section{Référence de la classe Main\-Window}
+\label{class_main_window}\index{Main\-Window@{Main\-Window}}
+}
+
+
+The \hyperlink{class_main_window}{Main\-Window} class.  
+
+
+
+
+{\ttfamily \#include $<$mainwindow.\-h$>$}
+
+
+
+Graphe de collaboration de Main\-Window\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{class_main_window__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Connecteurs publics}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_main_window_a4ae4ac96dbfdcb80facbf7da0ae3fb5e}{est\-Coince} (\hyperlink{classemplacement}{emplacement} $\ast$)
+\begin{DoxyCompactList}\small\item\em bool \hyperlink{class_main_window_a4ae4ac96dbfdcb80facbf7da0ae3fb5e}{est\-Coince(emplacement$\ast$)} \end{DoxyCompactList}\item 
+bool \hyperlink{class_main_window_ac3a2c00ad936408dce78d15697eeef24}{accessible} (\hyperlink{classemplacement}{emplacement} $\ast$e1, \hyperlink{classemplacement}{emplacement} $\ast$e2)
+\begin{DoxyCompactList}\small\item\em bool \hyperlink{class_main_window_ac3a2c00ad936408dce78d15697eeef24}{accessible(emplacement$\ast$ e1,emplacement$\ast$ e2)} \end{DoxyCompactList}\item 
+void \hyperlink{class_main_window_a8e9fb499b85eef1d31b4caedcdad3424}{set\-Curseur} (Q\-Cursor \&cuseur)
+\begin{DoxyCompactList}\small\item\em void \hyperlink{class_main_window_a8e9fb499b85eef1d31b4caedcdad3424}{set\-Curseur(\-Q\-Cursor \& cuseur)} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}{Main\-Window} (Q\-Widget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_main_window}{Main\-Window}. \end{DoxyCompactList}\item 
+\hyperlink{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}{$\sim$\-Main\-Window} ()
+\begin{DoxyCompactList}\small\item\em Le destructeur. \end{DoxyCompactList}\item 
+bool \hyperlink{class_main_window_a6dc1f84d9bc6e8ab7f1bb6bc04e2db49}{ligne} (int no)
+\begin{DoxyCompactList}\small\item\em bool \hyperlink{class_main_window_a6dc1f84d9bc6e8ab7f1bb6bc04e2db49}{ligne(int no)} \end{DoxyCompactList}\item 
+bool \hyperlink{class_main_window_a85653198b42750c0f09876f0af3715d7}{col} (int no)
+\begin{DoxyCompactList}\small\item\em bool \hyperlink{class_main_window_a85653198b42750c0f09876f0af3715d7}{col(int no)} \end{DoxyCompactList}\item 
+bool \hyperlink{class_main_window_a7b80bba7c56fbcc016dbc004d208ec31}{diag} (int no)
+\begin{DoxyCompactList}\small\item\em bool \hyperlink{class_main_window_a7b80bba7c56fbcc016dbc004d208ec31}{diag(int no)} \end{DoxyCompactList}\item 
+void \hyperlink{class_main_window_a1eefa05031d74694e4249a8c68741122}{set\-Emplacement\-Deplace} (\hyperlink{classemplacement}{emplacement} $\ast$e)
+\begin{DoxyCompactList}\small\item\em void \hyperlink{class_main_window_a1eefa05031d74694e4249a8c68741122}{set\-Emplacement\-Deplace(emplacement$\ast$ e)} \end{DoxyCompactList}\item 
+void \hyperlink{class_main_window_a3ab75adb0221eb5e362f2070f71ebc22}{reset\-Curseur} ()
+\begin{DoxyCompactList}\small\item\em void \hyperlink{class_main_window_a3ab75adb0221eb5e362f2070f71ebc22}{reset\-Curseur()}  remet le curseur normal \end{DoxyCompactList}\item 
+bool \hyperlink{class_main_window_a1810f8a7d5a8497d738d909efca8947b}{deja\-Gagne} (\hyperlink{classjoueur}{joueur} $\ast$un\-Joueur)
+\begin{DoxyCompactList}\small\item\em bool \hyperlink{class_main_window_a1810f8a7d5a8497d738d909efca8947b}{deja\-Gagne(joueur $\ast$ un\-Joueur)} \end{DoxyCompactList}\item 
+void \hyperlink{class_main_window_a3c0bedf7eae76f0c5ca35bd16491b919}{changement} ()
+\begin{DoxyCompactList}\small\item\em void \hyperlink{class_main_window_a3c0bedf7eae76f0c5ca35bd16491b919}{changement()}  change de joueur actif \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs publics}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjoueur}{joueur} $\ast$ \hyperlink{class_main_window_a267d43ab6a839ee5f91869efa84cf271}{joueur\-Actif}
+\begin{DoxyCompactList}\small\item\em joueur joueur\-Actif  définie le joueur actif \end{DoxyCompactList}\item 
+\hyperlink{classemplacement}{emplacement} $\ast$ \hyperlink{class_main_window_ad334c5c1d3c58a97eb424324b3c6225e}{emplacement\-Deplace}
+\begin{DoxyCompactList}\small\item\em emplacement emplacement\-Deplace  l'emplacement du jeton déplacé \end{DoxyCompactList}\item 
+\hyperlink{classjoueur}{joueur} $\ast$ \hyperlink{class_main_window_a5d1e13ecdb63fa88e114565df70613aa}{joueur\-Humain}
+\begin{DoxyCompactList}\small\item\em joueur joueur\-Humain  création d'un joueur humain (joueur1) \end{DoxyCompactList}\item 
+\hyperlink{classjoueur}{joueur} $\ast$ \hyperlink{class_main_window_a7ce2a641dae02c27242c9bca5ec2174f}{joueur\-Ordi}
+\begin{DoxyCompactList}\small\item\em joueur joueur\-Ordi  création d'un joueur ordinateur (joueur2) \end{DoxyCompactList}\item 
+Q\-Pixmap \hyperlink{class_main_window_a40ca81795033b7d295527bc860f716cf}{pixmap\-Empty\-Emplacement}
+\begin{DoxyCompactList}\small\item\em Q\-Pixmap pixmap\-Empty\-Emplacement  définie les emplacement vide sur le plateau (image rond noir) \end{DoxyCompactList}\item 
+bool \hyperlink{class_main_window_a00d26707b5d27cc6ce07479a46244692}{partie\-Terminee}
+\begin{DoxyCompactList}\small\item\em bool partie\-Terminee  renvoie vrai quand une partie est terminée \end{DoxyCompactList}\item 
+Q\-Timer $\ast$ \hyperlink{class_main_window_a6d86dd50bcd7dc534fbc9fd374260554}{timer\-Tour}
+\begin{DoxyCompactList}\small\item\em timer\-Tour  temps du tour, 30 secondes par tour par personne \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+The \hyperlink{class_main_window}{Main\-Window} class. 
+
+Définition à la ligne 26 du fichier mainwindow.\-h.
+
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\hypertarget{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}{\index{Main\-Window@{Main\-Window}!Main\-Window@{Main\-Window}}
+\index{Main\-Window@{Main\-Window}!MainWindow@{Main\-Window}}
+\subsubsection[{Main\-Window}]{\setlength{\rightskip}{0pt plus 5cm}Main\-Window\-::\-Main\-Window (
+\begin{DoxyParamCaption}
+\item[{Q\-Widget $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [explicit]}}}\label{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}
+
+
+\hyperlink{class_main_window}{Main\-Window}. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em parent} & \\
+\hline
+\end{DoxyParams}
+
+
+Définition à la ligne 11 du fichier mainwindow.\-cpp.
+
+\hypertarget{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}{\index{Main\-Window@{Main\-Window}!$\sim$\-Main\-Window@{$\sim$\-Main\-Window}}
+\index{$\sim$\-Main\-Window@{$\sim$\-Main\-Window}!MainWindow@{Main\-Window}}
+\subsubsection[{$\sim$\-Main\-Window}]{\setlength{\rightskip}{0pt plus 5cm}Main\-Window\-::$\sim$\-Main\-Window (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}
+
+
+Le destructeur. 
+
+Le destructeur détruit l'instance et libère la mémoire allouée dynamiquement 
+
+Définition à la ligne 60 du fichier mainwindow.\-cpp.
+
+
+
+\subsection{Documentation des fonctions membres}
+\hypertarget{class_main_window_ac3a2c00ad936408dce78d15697eeef24}{\index{Main\-Window@{Main\-Window}!accessible@{accessible}}
+\index{accessible@{accessible}!MainWindow@{Main\-Window}}
+\subsubsection[{accessible}]{\setlength{\rightskip}{0pt plus 5cm}bool Main\-Window\-::accessible (
+\begin{DoxyParamCaption}
+\item[{{\bf emplacement} $\ast$}]{e1, }
+\item[{{\bf emplacement} $\ast$}]{e2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{class_main_window_ac3a2c00ad936408dce78d15697eeef24}
+
+
+bool \hyperlink{class_main_window_ac3a2c00ad936408dce78d15697eeef24}{accessible(emplacement$\ast$ e1,emplacement$\ast$ e2)} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em e1} & \-: emplacement inital du jeton \\
+\hline
+{\em e2} & \-: emplacement destination du jeton \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+renvoie vrai si l'emplacement (e2) est accessible pour le jeton selectionné qui était en (e1) 
+\end{DoxyReturn}
+
+
+Définition à la ligne 130 du fichier mainwindow.\-cpp.
+
+\hypertarget{class_main_window_a3c0bedf7eae76f0c5ca35bd16491b919}{\index{Main\-Window@{Main\-Window}!changement@{changement}}
+\index{changement@{changement}!MainWindow@{Main\-Window}}
+\subsubsection[{changement}]{\setlength{\rightskip}{0pt plus 5cm}void Main\-Window\-::changement (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_main_window_a3c0bedf7eae76f0c5ca35bd16491b919}
+
+
+void \hyperlink{class_main_window_a3c0bedf7eae76f0c5ca35bd16491b919}{changement()}  change de joueur actif 
+
+
+
+Définition à la ligne 107 du fichier mainwindow.\-cpp.
+
+\hypertarget{class_main_window_a85653198b42750c0f09876f0af3715d7}{\index{Main\-Window@{Main\-Window}!col@{col}}
+\index{col@{col}!MainWindow@{Main\-Window}}
+\subsubsection[{col}]{\setlength{\rightskip}{0pt plus 5cm}bool Main\-Window\-::col (
+\begin{DoxyParamCaption}
+\item[{int}]{no}
+\end{DoxyParamCaption}
+)}}\label{class_main_window_a85653198b42750c0f09876f0af3715d7}
+
+
+bool \hyperlink{class_main_window_a85653198b42750c0f09876f0af3715d7}{col(int no)} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em int} & no \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne vrai si la col no est pleine  colonne sur le plateau de jeu 
+\end{DoxyReturn}
+
+
+Définition à la ligne 79 du fichier mainwindow.\-cpp.
+
+\hypertarget{class_main_window_a1810f8a7d5a8497d738d909efca8947b}{\index{Main\-Window@{Main\-Window}!deja\-Gagne@{deja\-Gagne}}
+\index{deja\-Gagne@{deja\-Gagne}!MainWindow@{Main\-Window}}
+\subsubsection[{deja\-Gagne}]{\setlength{\rightskip}{0pt plus 5cm}bool Main\-Window\-::deja\-Gagne (
+\begin{DoxyParamCaption}
+\item[{{\bf joueur} $\ast$}]{un\-Joueur}
+\end{DoxyParamCaption}
+)}}\label{class_main_window_a1810f8a7d5a8497d738d909efca8947b}
+
+
+bool \hyperlink{class_main_window_a1810f8a7d5a8497d738d909efca8947b}{deja\-Gagne(joueur $\ast$ un\-Joueur)} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em un\-Joueur} & joueur$\ast$ \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+renvoie vrai si un joueur a déjà gagné 
+\end{DoxyReturn}
+
+
+Définition à la ligne 93 du fichier mainwindow.\-cpp.
+
+\hypertarget{class_main_window_a7b80bba7c56fbcc016dbc004d208ec31}{\index{Main\-Window@{Main\-Window}!diag@{diag}}
+\index{diag@{diag}!MainWindow@{Main\-Window}}
+\subsubsection[{diag}]{\setlength{\rightskip}{0pt plus 5cm}bool Main\-Window\-::diag (
+\begin{DoxyParamCaption}
+\item[{int}]{no}
+\end{DoxyParamCaption}
+)}}\label{class_main_window_a7b80bba7c56fbcc016dbc004d208ec31}
+
+
+bool \hyperlink{class_main_window_a7b80bba7c56fbcc016dbc004d208ec31}{diag(int no)} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em int} & no \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne vrai si la diag no est pleine  diagonal sur le plateau de jeu 
+\end{DoxyReturn}
+
+
+Définition à la ligne 86 du fichier mainwindow.\-cpp.
+
+\hypertarget{class_main_window_a4ae4ac96dbfdcb80facbf7da0ae3fb5e}{\index{Main\-Window@{Main\-Window}!est\-Coince@{est\-Coince}}
+\index{est\-Coince@{est\-Coince}!MainWindow@{Main\-Window}}
+\subsubsection[{est\-Coince}]{\setlength{\rightskip}{0pt plus 5cm}bool Main\-Window\-::est\-Coince (
+\begin{DoxyParamCaption}
+\item[{{\bf emplacement} $\ast$}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{class_main_window_a4ae4ac96dbfdcb80facbf7da0ae3fb5e}
+
+
+bool \hyperlink{class_main_window_a4ae4ac96dbfdcb80facbf7da0ae3fb5e}{est\-Coince(emplacement$\ast$)} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em emplacement$\ast$} & l'emplacement du jeton selectionné \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+renvoie faux 
+\end{DoxyReturn}
+
+
+Définition à la ligne 125 du fichier mainwindow.\-cpp.
+
+\hypertarget{class_main_window_a6dc1f84d9bc6e8ab7f1bb6bc04e2db49}{\index{Main\-Window@{Main\-Window}!ligne@{ligne}}
+\index{ligne@{ligne}!MainWindow@{Main\-Window}}
+\subsubsection[{ligne}]{\setlength{\rightskip}{0pt plus 5cm}bool Main\-Window\-::ligne (
+\begin{DoxyParamCaption}
+\item[{int}]{no}
+\end{DoxyParamCaption}
+)}}\label{class_main_window_a6dc1f84d9bc6e8ab7f1bb6bc04e2db49}
+
+
+bool \hyperlink{class_main_window_a6dc1f84d9bc6e8ab7f1bb6bc04e2db49}{ligne(int no)} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em int} & no \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne vrai si la ligne no est pleine  ligne sur le plateau de jeu 
+\end{DoxyReturn}
+
+
+Définition à la ligne 72 du fichier mainwindow.\-cpp.
+
+\hypertarget{class_main_window_a3ab75adb0221eb5e362f2070f71ebc22}{\index{Main\-Window@{Main\-Window}!reset\-Curseur@{reset\-Curseur}}
+\index{reset\-Curseur@{reset\-Curseur}!MainWindow@{Main\-Window}}
+\subsubsection[{reset\-Curseur}]{\setlength{\rightskip}{0pt plus 5cm}void Main\-Window\-::reset\-Curseur (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_main_window_a3ab75adb0221eb5e362f2070f71ebc22}
+
+
+void \hyperlink{class_main_window_a3ab75adb0221eb5e362f2070f71ebc22}{reset\-Curseur()}  remet le curseur normal 
+
+
+
+Définition à la ligne 55 du fichier mainwindow.\-cpp.
+
+\hypertarget{class_main_window_a8e9fb499b85eef1d31b4caedcdad3424}{\index{Main\-Window@{Main\-Window}!set\-Curseur@{set\-Curseur}}
+\index{set\-Curseur@{set\-Curseur}!MainWindow@{Main\-Window}}
+\subsubsection[{set\-Curseur}]{\setlength{\rightskip}{0pt plus 5cm}void Main\-Window\-::set\-Curseur (
+\begin{DoxyParamCaption}
+\item[{Q\-Cursor \&}]{cuseur}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{class_main_window_a8e9fb499b85eef1d31b4caedcdad3424}
+
+
+void \hyperlink{class_main_window_a8e9fb499b85eef1d31b4caedcdad3424}{set\-Curseur(\-Q\-Cursor \& cuseur)} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Q\-Cursor} & cuseur \\
+\hline
+\end{DoxyParams}
+
+
+Définition à la ligne 48 du fichier mainwindow.\-cpp.
+
+\hypertarget{class_main_window_a1eefa05031d74694e4249a8c68741122}{\index{Main\-Window@{Main\-Window}!set\-Emplacement\-Deplace@{set\-Emplacement\-Deplace}}
+\index{set\-Emplacement\-Deplace@{set\-Emplacement\-Deplace}!MainWindow@{Main\-Window}}
+\subsubsection[{set\-Emplacement\-Deplace}]{\setlength{\rightskip}{0pt plus 5cm}void Main\-Window\-::set\-Emplacement\-Deplace (
+\begin{DoxyParamCaption}
+\item[{{\bf emplacement} $\ast$}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_main_window_a1eefa05031d74694e4249a8c68741122}
+
+
+void \hyperlink{class_main_window_a1eefa05031d74694e4249a8c68741122}{set\-Emplacement\-Deplace(emplacement$\ast$ e)} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em emplacement} & e  emplacement\-Deplace prendre la valeur de l'emplacement e \\
+\hline
+\end{DoxyParams}
+
+
+Définition à la ligne 82 du fichier mainwindow.\-h.
+
+
+
+\subsection{Documentation des données membres}
+\hypertarget{class_main_window_ad334c5c1d3c58a97eb424324b3c6225e}{\index{Main\-Window@{Main\-Window}!emplacement\-Deplace@{emplacement\-Deplace}}
+\index{emplacement\-Deplace@{emplacement\-Deplace}!MainWindow@{Main\-Window}}
+\subsubsection[{emplacement\-Deplace}]{\setlength{\rightskip}{0pt plus 5cm}{\bf emplacement} $\ast$ Main\-Window\-::emplacement\-Deplace}}\label{class_main_window_ad334c5c1d3c58a97eb424324b3c6225e}
+
+
+emplacement emplacement\-Deplace  l'emplacement du jeton déplacé 
+
+
+
+Définition à la ligne 76 du fichier mainwindow.\-h.
+
+\hypertarget{class_main_window_a267d43ab6a839ee5f91869efa84cf271}{\index{Main\-Window@{Main\-Window}!joueur\-Actif@{joueur\-Actif}}
+\index{joueur\-Actif@{joueur\-Actif}!MainWindow@{Main\-Window}}
+\subsubsection[{joueur\-Actif}]{\setlength{\rightskip}{0pt plus 5cm}{\bf joueur} $\ast$ Main\-Window\-::joueur\-Actif}}\label{class_main_window_a267d43ab6a839ee5f91869efa84cf271}
+
+
+joueur joueur\-Actif  définie le joueur actif 
+
+
+
+Définition à la ligne 49 du fichier mainwindow.\-h.
+
+\hypertarget{class_main_window_a5d1e13ecdb63fa88e114565df70613aa}{\index{Main\-Window@{Main\-Window}!joueur\-Humain@{joueur\-Humain}}
+\index{joueur\-Humain@{joueur\-Humain}!MainWindow@{Main\-Window}}
+\subsubsection[{joueur\-Humain}]{\setlength{\rightskip}{0pt plus 5cm}{\bf joueur} $\ast$ Main\-Window\-::joueur\-Humain}}\label{class_main_window_a5d1e13ecdb63fa88e114565df70613aa}
+
+
+joueur joueur\-Humain  création d'un joueur humain (joueur1) 
+
+
+
+Définition à la ligne 104 du fichier mainwindow.\-h.
+
+\hypertarget{class_main_window_a7ce2a641dae02c27242c9bca5ec2174f}{\index{Main\-Window@{Main\-Window}!joueur\-Ordi@{joueur\-Ordi}}
+\index{joueur\-Ordi@{joueur\-Ordi}!MainWindow@{Main\-Window}}
+\subsubsection[{joueur\-Ordi}]{\setlength{\rightskip}{0pt plus 5cm}{\bf joueur} $\ast$ Main\-Window\-::joueur\-Ordi}}\label{class_main_window_a7ce2a641dae02c27242c9bca5ec2174f}
+
+
+joueur joueur\-Ordi  création d'un joueur ordinateur (joueur2) 
+
+
+
+Définition à la ligne 110 du fichier mainwindow.\-h.
+
+\hypertarget{class_main_window_a00d26707b5d27cc6ce07479a46244692}{\index{Main\-Window@{Main\-Window}!partie\-Terminee@{partie\-Terminee}}
+\index{partie\-Terminee@{partie\-Terminee}!MainWindow@{Main\-Window}}
+\subsubsection[{partie\-Terminee}]{\setlength{\rightskip}{0pt plus 5cm}bool Main\-Window\-::partie\-Terminee}}\label{class_main_window_a00d26707b5d27cc6ce07479a46244692}
+
+
+bool partie\-Terminee  renvoie vrai quand une partie est terminée 
+
+
+
+Définition à la ligne 121 du fichier mainwindow.\-h.
+
+\hypertarget{class_main_window_a40ca81795033b7d295527bc860f716cf}{\index{Main\-Window@{Main\-Window}!pixmap\-Empty\-Emplacement@{pixmap\-Empty\-Emplacement}}
+\index{pixmap\-Empty\-Emplacement@{pixmap\-Empty\-Emplacement}!MainWindow@{Main\-Window}}
+\subsubsection[{pixmap\-Empty\-Emplacement}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Pixmap Main\-Window\-::pixmap\-Empty\-Emplacement}}\label{class_main_window_a40ca81795033b7d295527bc860f716cf}
+
+
+Q\-Pixmap pixmap\-Empty\-Emplacement  définie les emplacement vide sur le plateau (image rond noir) 
+
+
+
+Définition à la ligne 116 du fichier mainwindow.\-h.
+
+\hypertarget{class_main_window_a6d86dd50bcd7dc534fbc9fd374260554}{\index{Main\-Window@{Main\-Window}!timer\-Tour@{timer\-Tour}}
+\index{timer\-Tour@{timer\-Tour}!MainWindow@{Main\-Window}}
+\subsubsection[{timer\-Tour}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Timer $\ast$ Main\-Window\-::timer\-Tour}}\label{class_main_window_a6d86dd50bcd7dc534fbc9fd374260554}
+
+
+timer\-Tour  temps du tour, 30 secondes par tour par personne 
+
+
+
+Définition à la ligne 127 du fichier mainwindow.\-h.
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{mainwindow_8h}{mainwindow.\-h}\item 
+\hyperlink{mainwindow_8cpp}{mainwindow.\-cpp}\end{DoxyCompactItemize}

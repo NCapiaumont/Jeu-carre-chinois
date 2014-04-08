@@ -1,0 +1,198 @@
+\hypertarget{classemplacement}{\section{Référence de la classe emplacement}
+\label{classemplacement}\index{emplacement@{emplacement}}
+}
+
+
+The emplacement class.  
+
+
+
+
+{\ttfamily \#include $<$emplacement.\-h$>$}
+
+
+
+Graphe de collaboration de emplacement\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=157pt]{classemplacement__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Connecteurs publics}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classemplacement_afd15b612d02b7cbfd0480b5b380c2b07}{est\-Vide} ()
+\begin{DoxyCompactList}\small\item\em bool \hyperlink{classemplacement_afd15b612d02b7cbfd0480b5b380c2b07}{est\-Vide()} \end{DoxyCompactList}\item 
+bool \hyperlink{classemplacement_a70e22f75b934e4daa40582708c4e01f5}{jouxte} (\hyperlink{classemplacement}{emplacement} $\ast$e)
+\begin{DoxyCompactList}\small\item\em bool \hyperlink{classemplacement_a70e22f75b934e4daa40582708c4e01f5}{jouxte(emplacement$\ast$ e)} \end{DoxyCompactList}\item 
+void \hyperlink{classemplacement_a9e57590839f9c185d962030b221b8ea1}{set\-Joueur} (\hyperlink{classjoueur}{joueur} $\ast$)
+\begin{DoxyCompactList}\small\item\em void \hyperlink{classemplacement_a9e57590839f9c185d962030b221b8ea1}{set\-Joueur(joueur$\ast$)} \end{DoxyCompactList}\item 
+void \hyperlink{classemplacement_ada71fd6bec4969e4ef5be1a610d712a4}{vider} ()
+\begin{DoxyCompactList}\small\item\em void \hyperlink{classemplacement_ada71fd6bec4969e4ef5be1a610d712a4}{vider()}  vide tous les emplacement sur le plateau (met les images des emplacements vide (rond noir)) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classemplacement_af7af55d84628659a8f0ebb01a6af128e}{emplacement} (\hyperlink{class_main_window}{Main\-Window} $\ast$maman, Q\-String texte, Q\-Widget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em explicit emplacement(\hyperlink{class_main_window}{Main\-Window} $\ast$ maman,Q\-String texte,Q\-Widget $\ast$parent = 0) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs publics}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classemplacement_aa0e8e131a1d8325f2245c56f8d2e6e8c}{ligne}
+\begin{DoxyCompactList}\small\item\em ligne \end{DoxyCompactList}\item 
+int \hyperlink{classemplacement_ac0af10e9e8d40e815a8b9633019406b1}{col}
+\begin{DoxyCompactList}\small\item\em col \end{DoxyCompactList}\item 
+\hyperlink{classjoueur}{joueur} $\ast$ \hyperlink{classemplacement_a8d9cb5aac12931bb041590456f3b4544}{le\-Joueur}
+\begin{DoxyCompactList}\small\item\em le\-Joueur \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+The emplacement class. 
+
+Définition à la ligne 18 du fichier emplacement.\-h.
+
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\hypertarget{classemplacement_af7af55d84628659a8f0ebb01a6af128e}{\index{emplacement@{emplacement}!emplacement@{emplacement}}
+\index{emplacement@{emplacement}!emplacement@{emplacement}}
+\subsubsection[{emplacement}]{\setlength{\rightskip}{0pt plus 5cm}emplacement\-::emplacement (
+\begin{DoxyParamCaption}
+\item[{{\bf Main\-Window} $\ast$}]{maman, }
+\item[{Q\-String}]{texte, }
+\item[{Q\-Widget $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [explicit]}}}\label{classemplacement_af7af55d84628659a8f0ebb01a6af128e}
+
+
+explicit emplacement(\hyperlink{class_main_window}{Main\-Window} $\ast$ maman,Q\-String texte,Q\-Widget $\ast$parent = 0) 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em \hyperlink{class_main_window}{Main\-Window}} & maman \\
+\hline
+{\em Q\-String} & texte \\
+\hline
+{\em Q\-Widget} & parent \\
+\hline
+\end{DoxyParams}
+
+
+Définition à la ligne 6 du fichier emplacement.\-cpp.
+
+
+
+\subsection{Documentation des fonctions membres}
+\hypertarget{classemplacement_afd15b612d02b7cbfd0480b5b380c2b07}{\index{emplacement@{emplacement}!est\-Vide@{est\-Vide}}
+\index{est\-Vide@{est\-Vide}!emplacement@{emplacement}}
+\subsubsection[{est\-Vide}]{\setlength{\rightskip}{0pt plus 5cm}bool emplacement\-::est\-Vide (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{classemplacement_afd15b612d02b7cbfd0480b5b380c2b07}
+
+
+bool \hyperlink{classemplacement_afd15b612d02b7cbfd0480b5b380c2b07}{est\-Vide()} 
+
+\begin{DoxyReturn}{Renvoie}
+renvoie vrai si l'emplacement est vide  indique sur l'emplacement est vide ou non 
+\end{DoxyReturn}
+
+
+Définition à la ligne 13 du fichier emplacement.\-cpp.
+
+\hypertarget{classemplacement_a70e22f75b934e4daa40582708c4e01f5}{\index{emplacement@{emplacement}!jouxte@{jouxte}}
+\index{jouxte@{jouxte}!emplacement@{emplacement}}
+\subsubsection[{jouxte}]{\setlength{\rightskip}{0pt plus 5cm}bool emplacement\-::jouxte (
+\begin{DoxyParamCaption}
+\item[{{\bf emplacement} $\ast$}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{classemplacement_a70e22f75b934e4daa40582708c4e01f5}
+
+
+bool \hyperlink{classemplacement_a70e22f75b934e4daa40582708c4e01f5}{jouxte(emplacement$\ast$ e)} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em emplacement} & e \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+renvoie vrai si l'emplacement en cours est à côté de l'emplacement e  indique si l'emplacement est vide a coté du jeton selectionné 
+\end{DoxyReturn}
+
+
+Définition à la ligne 131 du fichier emplacement.\-cpp.
+
+\hypertarget{classemplacement_a9e57590839f9c185d962030b221b8ea1}{\index{emplacement@{emplacement}!set\-Joueur@{set\-Joueur}}
+\index{set\-Joueur@{set\-Joueur}!emplacement@{emplacement}}
+\subsubsection[{set\-Joueur}]{\setlength{\rightskip}{0pt plus 5cm}void emplacement\-::set\-Joueur (
+\begin{DoxyParamCaption}
+\item[{{\bf joueur} $\ast$}]{j}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{classemplacement_a9e57590839f9c185d962030b221b8ea1}
+
+
+void \hyperlink{classemplacement_a9e57590839f9c185d962030b221b8ea1}{set\-Joueur(joueur$\ast$)} 
+
+
+
+Définition à la ligne 22 du fichier emplacement.\-cpp.
+
+\hypertarget{classemplacement_ada71fd6bec4969e4ef5be1a610d712a4}{\index{emplacement@{emplacement}!vider@{vider}}
+\index{vider@{vider}!emplacement@{emplacement}}
+\subsubsection[{vider}]{\setlength{\rightskip}{0pt plus 5cm}void emplacement\-::vider (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{classemplacement_ada71fd6bec4969e4ef5be1a610d712a4}
+
+
+void \hyperlink{classemplacement_ada71fd6bec4969e4ef5be1a610d712a4}{vider()}  vide tous les emplacement sur le plateau (met les images des emplacements vide (rond noir)) 
+
+
+
+Définition à la ligne 17 du fichier emplacement.\-cpp.
+
+
+
+\subsection{Documentation des données membres}
+\hypertarget{classemplacement_ac0af10e9e8d40e815a8b9633019406b1}{\index{emplacement@{emplacement}!col@{col}}
+\index{col@{col}!emplacement@{emplacement}}
+\subsubsection[{col}]{\setlength{\rightskip}{0pt plus 5cm}int emplacement\-::col}}\label{classemplacement_ac0af10e9e8d40e815a8b9633019406b1}
+
+
+col 
+
+
+
+Définition à la ligne 50 du fichier emplacement.\-h.
+
+\hypertarget{classemplacement_a8d9cb5aac12931bb041590456f3b4544}{\index{emplacement@{emplacement}!le\-Joueur@{le\-Joueur}}
+\index{le\-Joueur@{le\-Joueur}!emplacement@{emplacement}}
+\subsubsection[{le\-Joueur}]{\setlength{\rightskip}{0pt plus 5cm}{\bf joueur} $\ast$ emplacement\-::le\-Joueur}}\label{classemplacement_a8d9cb5aac12931bb041590456f3b4544}
+
+
+le\-Joueur 
+
+
+
+Définition à la ligne 55 du fichier emplacement.\-h.
+
+\hypertarget{classemplacement_aa0e8e131a1d8325f2245c56f8d2e6e8c}{\index{emplacement@{emplacement}!ligne@{ligne}}
+\index{ligne@{ligne}!emplacement@{emplacement}}
+\subsubsection[{ligne}]{\setlength{\rightskip}{0pt plus 5cm}int emplacement\-::ligne}}\label{classemplacement_aa0e8e131a1d8325f2245c56f8d2e6e8c}
+
+
+ligne 
+
+
+
+Définition à la ligne 45 du fichier emplacement.\-h.
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{emplacement_8h}{emplacement.\-h}\item 
+\hyperlink{emplacement_8cpp}{emplacement.\-cpp}\end{DoxyCompactItemize}

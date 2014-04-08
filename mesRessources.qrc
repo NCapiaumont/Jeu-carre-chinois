@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="emptyEmplacement">images/emplVide.png</file>
+        <file alias="bleu">images/jetonBleu.png</file>
+        <file alias="rouge">images/jetonRouge.png</file>
+        <file>images/plateau.png</file>
+    </qresource>
+    <qresource prefix="/translate">
+        <file alias="korea">jeu_kr.qm</file>
+        <file alias="japan">jeu_jp.qm</file>
+        <file alias="france">jeu_fr.qm</file>
+        <file alias="deutchland">jeu_de.qm</file>
+    </qresource>
+</RCC>

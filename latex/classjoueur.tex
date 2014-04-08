@@ -1,0 +1,237 @@
+\hypertarget{classjoueur}{\section{Référence de la classe joueur}
+\label{classjoueur}\index{joueur@{joueur}}
+}
+
+
+Classe joueur \char`\"{}joueur.\-h\char`\"{}.  
+
+
+
+
+{\ttfamily \#include $<$joueur.\-h$>$}
+
+\subsection*{Connecteurs publics}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classjoueur_a6c718c04f1db54452e366aeaddeb249d}{sur\-Brille} (bool active)
+\begin{DoxyCompactList}\small\item\em void \hyperlink{classjoueur_a6c718c04f1db54452e366aeaddeb249d}{sur\-Brille(bool active)} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classjoueur_a9f78a65e07011114967ef5c813a868cb}{joueur} (Q\-String l, Q\-String string\-Couleur, Q\-Widget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em explicit joueur(Q\-String l,Q\-String string\-Couleur, Q\-Widget $\ast$parent = 0) \end{DoxyCompactList}\item 
+void \hyperlink{classjoueur_a6095d00e5c84a98694ae3f2ebbef48d8}{set\-Lettre} (Q\-String)
+\begin{DoxyCompactList}\small\item\em void \hyperlink{classjoueur_a6095d00e5c84a98694ae3f2ebbef48d8}{set\-Lettre(\-Q\-String)}  change la lettre du joueur \end{DoxyCompactList}\item 
+Q\-String \hyperlink{classjoueur_a7a91ed8fa89ad62545bae8e805565c39}{get\-Lettre} ()
+\begin{DoxyCompactList}\small\item\em Q\-String \hyperlink{classjoueur_a7a91ed8fa89ad62545bae8e805565c39}{get\-Lettre()} \end{DoxyCompactList}\item 
+Q\-Cursor $\ast$ \hyperlink{classjoueur_a19403939c10d9a70b6035024978ca230}{get\-Son\-Curseur} (Q\-String lequel)
+\begin{DoxyCompactList}\small\item\em Q\-Cursor$\ast$ \hyperlink{classjoueur_a19403939c10d9a70b6035024978ca230}{get\-Son\-Curseur(\-Q\-String lequel)} \end{DoxyCompactList}\item 
+int \hyperlink{classjoueur_a80aefa29f51995d731605b5230840ac3}{get\-Nb\-Jeton} ()
+\begin{DoxyCompactList}\small\item\em get\-Nb\-Jeton \end{DoxyCompactList}\item 
+void \hyperlink{classjoueur_a15c0ea5487cf6800e373cb1b1ed52b12}{reset\-Jeton} ()
+\begin{DoxyCompactList}\small\item\em void \hyperlink{classjoueur_a15c0ea5487cf6800e373cb1b1ed52b12}{reset\-Jeton()}  remet le nombre de jeton a 3 aux deux joueurs \end{DoxyCompactList}\item 
+void \hyperlink{classjoueur_a1a1b8731c7eec4f854a65d83c3f6fc70}{diminue\-Nb\-Jeton} ()
+\begin{DoxyCompactList}\small\item\em void \hyperlink{classjoueur_a1a1b8731c7eec4f854a65d83c3f6fc70}{diminue\-Nb\-Jeton()}  diminue le nombre des jetons d'un joueur (au moment ou il le place sur le plateau) \end{DoxyCompactList}\item 
+Q\-String \hyperlink{classjoueur_a2992fc3e5e7f08794c001db796f5e925}{get\-Couleur} ()
+\begin{DoxyCompactList}\small\item\em Q\-String \hyperlink{classjoueur_a2992fc3e5e7f08794c001db796f5e925}{get\-Couleur()} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Classe joueur \char`\"{}joueur.\-h\char`\"{}. 
+
+Cette classe est la classe joueur \begin{DoxyAuthor}{Auteur}
+Nicolas Capiaumont 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+06/12/13 
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+G\-N\-U Public License.
+\end{DoxyCopyright}
+The joueur class 
+
+Définition à la ligne 16 du fichier joueur.\-h.
+
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\hypertarget{classjoueur_a9f78a65e07011114967ef5c813a868cb}{\index{joueur@{joueur}!joueur@{joueur}}
+\index{joueur@{joueur}!joueur@{joueur}}
+\subsubsection[{joueur}]{\setlength{\rightskip}{0pt plus 5cm}joueur\-::joueur (
+\begin{DoxyParamCaption}
+\item[{Q\-String}]{l, }
+\item[{Q\-String}]{string\-Couleur, }
+\item[{Q\-Widget $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [explicit]}}}\label{classjoueur_a9f78a65e07011114967ef5c813a868cb}
+
+
+explicit joueur(Q\-String l,Q\-String string\-Couleur, Q\-Widget $\ast$parent = 0) 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Q\-String} & l \\
+\hline
+{\em Q\-String} & string\-Couleur \\
+\hline
+{\em Q\-Widget} & parent \\
+\hline
+\end{DoxyParams}
+
+
+Définition à la ligne 4 du fichier joueur.\-cpp.
+
+
+
+\subsection{Documentation des fonctions membres}
+\hypertarget{classjoueur_a1a1b8731c7eec4f854a65d83c3f6fc70}{\index{joueur@{joueur}!diminue\-Nb\-Jeton@{diminue\-Nb\-Jeton}}
+\index{diminue\-Nb\-Jeton@{diminue\-Nb\-Jeton}!joueur@{joueur}}
+\subsubsection[{diminue\-Nb\-Jeton}]{\setlength{\rightskip}{0pt plus 5cm}void joueur\-::diminue\-Nb\-Jeton (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classjoueur_a1a1b8731c7eec4f854a65d83c3f6fc70}
+
+
+void \hyperlink{classjoueur_a1a1b8731c7eec4f854a65d83c3f6fc70}{diminue\-Nb\-Jeton()}  diminue le nombre des jetons d'un joueur (au moment ou il le place sur le plateau) 
+
+
+
+Définition à la ligne 62 du fichier joueur.\-h.
+
+\hypertarget{classjoueur_a2992fc3e5e7f08794c001db796f5e925}{\index{joueur@{joueur}!get\-Couleur@{get\-Couleur}}
+\index{get\-Couleur@{get\-Couleur}!joueur@{joueur}}
+\subsubsection[{get\-Couleur}]{\setlength{\rightskip}{0pt plus 5cm}Q\-String joueur\-::get\-Couleur (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classjoueur_a2992fc3e5e7f08794c001db796f5e925}
+
+
+Q\-String \hyperlink{classjoueur_a2992fc3e5e7f08794c001db796f5e925}{get\-Couleur()} 
+
+\begin{DoxyReturn}{Renvoie}
+renvoie la couleur  renvoie la couleur du joueur (bleu ou rouge) 
+\end{DoxyReturn}
+
+
+Définition à la ligne 68 du fichier joueur.\-h.
+
+\hypertarget{classjoueur_a7a91ed8fa89ad62545bae8e805565c39}{\index{joueur@{joueur}!get\-Lettre@{get\-Lettre}}
+\index{get\-Lettre@{get\-Lettre}!joueur@{joueur}}
+\subsubsection[{get\-Lettre}]{\setlength{\rightskip}{0pt plus 5cm}Q\-String joueur\-::get\-Lettre (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classjoueur_a7a91ed8fa89ad62545bae8e805565c39}
+
+
+Q\-String \hyperlink{classjoueur_a7a91ed8fa89ad62545bae8e805565c39}{get\-Lettre()} 
+
+\begin{DoxyReturn}{Renvoie}
+renvoie la lettre  renvoie la lettre du joueur 
+\end{DoxyReturn}
+
+
+Définition à la ligne 33 du fichier joueur.\-cpp.
+
+\hypertarget{classjoueur_a80aefa29f51995d731605b5230840ac3}{\index{joueur@{joueur}!get\-Nb\-Jeton@{get\-Nb\-Jeton}}
+\index{get\-Nb\-Jeton@{get\-Nb\-Jeton}!joueur@{joueur}}
+\subsubsection[{get\-Nb\-Jeton}]{\setlength{\rightskip}{0pt plus 5cm}int joueur\-::get\-Nb\-Jeton (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classjoueur_a80aefa29f51995d731605b5230840ac3}
+
+
+get\-Nb\-Jeton 
+
+\begin{DoxyReturn}{Renvoie}
+renvoie le nombre de jeton  revoie le nombre de jeton que le joueur a \char`\"{}dans sa main\char`\"{} (le nombre de jeton qu'il lui reste à poser sur le plateau) 
+\end{DoxyReturn}
+
+
+Définition à la ligne 52 du fichier joueur.\-h.
+
+\hypertarget{classjoueur_a19403939c10d9a70b6035024978ca230}{\index{joueur@{joueur}!get\-Son\-Curseur@{get\-Son\-Curseur}}
+\index{get\-Son\-Curseur@{get\-Son\-Curseur}!joueur@{joueur}}
+\subsubsection[{get\-Son\-Curseur}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Cursor$\ast$ joueur\-::get\-Son\-Curseur (
+\begin{DoxyParamCaption}
+\item[{Q\-String}]{lequel}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classjoueur_a19403939c10d9a70b6035024978ca230}
+
+
+Q\-Cursor$\ast$ \hyperlink{classjoueur_a19403939c10d9a70b6035024978ca230}{get\-Son\-Curseur(\-Q\-String lequel)} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em Q\-String} & lequel \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+renvoie le curseur normal quand il est normal sinon renvoie son curseur ok 
+\end{DoxyReturn}
+
+
+Définition à la ligne 46 du fichier joueur.\-h.
+
+\hypertarget{classjoueur_a15c0ea5487cf6800e373cb1b1ed52b12}{\index{joueur@{joueur}!reset\-Jeton@{reset\-Jeton}}
+\index{reset\-Jeton@{reset\-Jeton}!joueur@{joueur}}
+\subsubsection[{reset\-Jeton}]{\setlength{\rightskip}{0pt plus 5cm}void joueur\-::reset\-Jeton (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classjoueur_a15c0ea5487cf6800e373cb1b1ed52b12}
+
+
+void \hyperlink{classjoueur_a15c0ea5487cf6800e373cb1b1ed52b12}{reset\-Jeton()}  remet le nombre de jeton a 3 aux deux joueurs 
+
+
+
+Définition à la ligne 57 du fichier joueur.\-h.
+
+\hypertarget{classjoueur_a6095d00e5c84a98694ae3f2ebbef48d8}{\index{joueur@{joueur}!set\-Lettre@{set\-Lettre}}
+\index{set\-Lettre@{set\-Lettre}!joueur@{joueur}}
+\subsubsection[{set\-Lettre}]{\setlength{\rightskip}{0pt plus 5cm}void joueur\-::set\-Lettre (
+\begin{DoxyParamCaption}
+\item[{Q\-String}]{l}
+\end{DoxyParamCaption}
+)}}\label{classjoueur_a6095d00e5c84a98694ae3f2ebbef48d8}
+
+
+void \hyperlink{classjoueur_a6095d00e5c84a98694ae3f2ebbef48d8}{set\-Lettre(\-Q\-String)}  change la lettre du joueur 
+
+
+
+Définition à la ligne 37 du fichier joueur.\-cpp.
+
+\hypertarget{classjoueur_a6c718c04f1db54452e366aeaddeb249d}{\index{joueur@{joueur}!sur\-Brille@{sur\-Brille}}
+\index{sur\-Brille@{sur\-Brille}!joueur@{joueur}}
+\subsubsection[{sur\-Brille}]{\setlength{\rightskip}{0pt plus 5cm}void joueur\-::sur\-Brille (
+\begin{DoxyParamCaption}
+\item[{bool}]{active}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{classjoueur_a6c718c04f1db54452e366aeaddeb249d}
+
+
+void \hyperlink{classjoueur_a6c718c04f1db54452e366aeaddeb249d}{sur\-Brille(bool active)} 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em active} & met une couleur verte sur le joueur actif (au tour du joueur) \\
+\hline
+\end{DoxyParams}
+
+
+Définition à la ligne 22 du fichier joueur.\-cpp.
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{joueur_8h}{joueur.\-h}\item 
+\hyperlink{joueur_8cpp}{joueur.\-cpp}\end{DoxyCompactItemize}

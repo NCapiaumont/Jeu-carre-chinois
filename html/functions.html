@@ -1,0 +1,680 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Carré chinois: Membres de classe</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="jetonBleu.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Carré chinois
+   &#160;<span id="projectnumber">v1.0</span>
+   </div>
+   <div id="projectbrief">Jeu en réseau</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="pages.html"><span>Pages&#160;associées</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&#160;de&#160;nommage</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Liste&#160;des&#160;classes</span></a></li>
+      <li><a href="classes.html"><span>Index&#160;des&#160;classes</span></a></li>
+      <li class="current"><a href="functions.html"><span>Membres&#160;de&#160;classe</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow3" class="tabs2">
+    <ul class="tablist">
+      <li class="current"><a href="functions.html"><span>Tout</span></a></li>
+      <li><a href="functions_func.html"><span>Fonctions</span></a></li>
+      <li><a href="functions_vars.html"><span>Variables</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow4" class="tabs3">
+    <ul class="tablist">
+      <li><a href="#index_a"><span>a</span></a></li>
+      <li><a href="#index_c"><span>c</span></a></li>
+      <li><a href="#index_d"><span>d</span></a></li>
+      <li><a href="#index_e"><span>e</span></a></li>
+      <li><a href="#index_g"><span>g</span></a></li>
+      <li><a href="#index_h"><span>h</span></a></li>
+      <li><a href="#index_i"><span>i</span></a></li>
+      <li><a href="#index_j"><span>j</span></a></li>
+      <li><a href="#index_l"><span>l</span></a></li>
+      <li><a href="#index_m"><span>m</span></a></li>
+      <li><a href="#index_o"><span>o</span></a></li>
+      <li><a href="#index_p"><span>p</span></a></li>
+      <li><a href="#index_q"><span>q</span></a></li>
+      <li><a href="#index_r"><span>r</span></a></li>
+      <li><a href="#index_s"><span>s</span></a></li>
+      <li><a href="#index_t"><span>t</span></a></li>
+      <li><a href="#index_v"><span>v</span></a></li>
+      <li><a href="#index_0x7e"><span>~</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('functions.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+<div class="textblock">Liste de tous les membres de classe avec des liens vers les classes auxquelles ils appartiennent :</div>
+
+<h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
+<li>accessible()
+: <a class="el" href="class_main_window.html#ac3a2c00ad936408dce78d15697eeef24">MainWindow</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
+<li>changement()
+: <a class="el" href="class_main_window.html#a3c0bedf7eae76f0c5ca35bd16491b919">MainWindow</a>
+</li>
+<li>col()
+: <a class="el" href="class_main_window.html#a85653198b42750c0f09876f0af3715d7">MainWindow</a>
+, <a class="el" href="classemplacement.html#ac0af10e9e8d40e815a8b9633019406b1">emplacement</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
+<li>dejaGagne()
+: <a class="el" href="class_main_window.html#a1810f8a7d5a8497d738d909efca8947b">MainWindow</a>
+</li>
+<li>diag()
+: <a class="el" href="class_main_window.html#a7b80bba7c56fbcc016dbc004d208ec31">MainWindow</a>
+</li>
+<li>diminueNbJeton()
+: <a class="el" href="classjoueur.html#a1a1b8731c7eec4f854a65d83c3f6fc70">joueur</a>
+</li>
+<li>dispatchGenericMotionEvent
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#a2c2d0ff311ded8aaa6dabdde99632a6c">org.qtproject.qt5.android.bindings.QtApplication</a>
+</li>
+<li>dispatchKeyEvent
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#a970719713bf7310b041b31dd6415fdcb">org.qtproject.qt5.android.bindings.QtApplication</a>
+, <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a3419f10b60670ae0fd0a222fcd684273">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>dispatchKeyShortcutEvent
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#aa2fb7f374d9a03d6b939375933ff5149">org.qtproject.qt5.android.bindings.QtApplication</a>
+</li>
+<li>dispatchPopulateAccessibilityEvent
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#a263117be3577f4976dc349a550cdb73f">org.qtproject.qt5.android.bindings.QtApplication</a>
+, <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a7eacf9d228567bace814d7d90cc88dc1">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>dispatchTouchEvent()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a080d702cac33de4a97b4645567cf8c04">org.qtproject.qt5.android.bindings.QtActivity</a>
+, <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#aa76cf4fe4b2ccebdca957464b7411745">org.qtproject.qt5.android.bindings.QtApplication</a>
+</li>
+<li>dispatchTrackballEvent()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#ad305b6d78907e6fc4bc4fa9b77256a22">org.qtproject.qt5.android.bindings.QtActivity</a>
+, <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#acb66b3d0eafb07d1f13fb0a7ca4262bf">org.qtproject.qt5.android.bindings.QtApplication</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
+<li>emplacement()
+: <a class="el" href="classemplacement.html#af7af55d84628659a8f0ebb01a6af128e">emplacement</a>
+</li>
+<li>emplacementDeplace
+: <a class="el" href="class_main_window.html#ad334c5c1d3c58a97eb424324b3c6225e">MainWindow</a>
+</li>
+<li>estCoince()
+: <a class="el" href="class_main_window.html#a4ae4ac96dbfdcb80facbf7da0ae3fb5e">MainWindow</a>
+</li>
+<li>estVide()
+: <a class="el" href="classemplacement.html#afd15b612d02b7cbfd0480b5b380c2b07">emplacement</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
+<li>getCouleur()
+: <a class="el" href="classjoueur.html#a2992fc3e5e7f08794c001db796f5e925">joueur</a>
+</li>
+<li>getLettre()
+: <a class="el" href="classjoueur.html#a7a91ed8fa89ad62545bae8e805565c39">joueur</a>
+</li>
+<li>getNbJeton()
+: <a class="el" href="classjoueur.html#a80aefa29f51995d731605b5230840ac3">joueur</a>
+</li>
+<li>getSonCurseur()
+: <a class="el" href="classjoueur.html#a19403939c10d9a70b6035024978ca230">joueur</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_h"></a>- h -</h3><ul>
+<li>help()
+: <a class="el" href="classhelp.html#a5bfcc97f9332fc089a54fd2bcfe43b1b">help</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
+<li>invokeDelegate()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#a8e4549506cfd078644266970e25dd1c5">org.qtproject.qt5.android.bindings.QtApplication</a>
+</li>
+<li>invokeDelegateMethod()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#a2c90af718c6bbd962d96589337a754ea">org.qtproject.qt5.android.bindings.QtApplication</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_j"></a>- j -</h3><ul>
+<li>joueur()
+: <a class="el" href="classjoueur.html#a9f78a65e07011114967ef5c813a868cb">joueur</a>
+</li>
+<li>joueurActif
+: <a class="el" href="class_main_window.html#a267d43ab6a839ee5f91869efa84cf271">MainWindow</a>
+</li>
+<li>joueurHumain
+: <a class="el" href="class_main_window.html#a5d1e13ecdb63fa88e114565df70613aa">MainWindow</a>
+</li>
+<li>joueurOrdi
+: <a class="el" href="class_main_window.html#a7ce2a641dae02c27242c9bca5ec2174f">MainWindow</a>
+</li>
+<li>jouxte()
+: <a class="el" href="classemplacement.html#a70e22f75b934e4daa40582708c4e01f5">emplacement</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
+<li>leJoueur
+: <a class="el" href="classemplacement.html#a8d9cb5aac12931bb041590456f3b4544">emplacement</a>
+</li>
+<li>ligne()
+: <a class="el" href="class_main_window.html#a6dc1f84d9bc6e8ab7f1bb6bc04e2db49">MainWindow</a>
+, <a class="el" href="classemplacement.html#aa0e8e131a1d8325f2245c56f8d2e6e8c">emplacement</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
+<li>m_delegateMethods
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#a5b32c9d8ce150fc1866812b13debbcfb">org.qtproject.qt5.android.bindings.QtApplication</a>
+</li>
+<li>m_delegateObject
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#a8b778a94cf5468dfc07ae8f3e8d81148">org.qtproject.qt5.android.bindings.QtApplication</a>
+</li>
+<li>MainWindow()
+: <a class="el" href="class_main_window.html#a8b244be8b7b7db1b08de2a2acb9409db">MainWindow</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_o"></a>- o -</h3><ul>
+<li>onActivityResult
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#a6538f4bbf7fdf3a1eba5971bb830af71">org.qtproject.qt5.android.bindings.QtApplication</a>
+, <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a4e9a7c6b28384e4d5f713462207ffc41">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onApplyThemeResource()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#acd279279e5ad448d802fa31b64a30aef">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onAttachedToWindow()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a052fd4aee0de52bcf2d8a10c5671d586">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onBackPressed()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a593eeb49762865051c6348a6b98e7ff1">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onChildTitleChanged()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#ac300f488c368a77573a3ecbf90f88b3c">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onConfigurationChanged()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a75ef70261caa7d4db3041147dc46c5d0">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onContentChanged()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a6310ffd404267a66b52dd4c3b357b560">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onContextItemSelected()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a67108692da62e48e5d02b22ed3d83769">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onContextMenuClosed()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a3e845800dc8fc21ff23589005d1a781c">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onCreate
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#a2bd84d3f02531e21ab7434cd4d48b849">org.qtproject.qt5.android.bindings.QtApplication</a>
+, <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#aa826639406d6f0697e0f1afcf69c748c">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onCreateContextMenu()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a924489f96650a755cf63980f3d388e8e">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onCreateDescription()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#af86865337837c2c780913132b7118d69">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onCreateDialog()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a68654d4382feda0419fd1a59792b3643">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onCreateOptionsMenu()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a9303a2dd16e8deb7cdcf143ae6b480f4">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onCreatePanelMenu()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a617b7c2c432bc9894d3c0b2490d27b41">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onCreatePanelView()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#aefde1977c2ccae37e5f1a927f7e9e9ee">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onCreateThumbnail()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a961e15fb9b7bcdc7e4310e881656e1d7">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onCreateView()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a4f26e1f33245742068eb9b79689f69e5">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onDestroy()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a30832553da49ca0dea222e062e21710c">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onDetachedFromWindow()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#aa7cad0cee8c325c1cbd7bb77a8a2c5ce">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onGenericMotionEvent
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#a2ba7755a97e7fadf952401719ca1f8e4">org.qtproject.qt5.android.bindings.QtApplication</a>
+</li>
+<li>onKeyDown
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#a399e0ef76371331edc6aca47b4936dc6">org.qtproject.qt5.android.bindings.QtApplication</a>
+, <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#ac1ee5a8d6b1ed5e7757139be8d7810be">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onKeyLongPress
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#abe105cb7eb9d98af229bcc706ad7660b">org.qtproject.qt5.android.bindings.QtApplication</a>
+, <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#ad1c024d3096ee30566b083bf35b711f4">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onKeyMultiple
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#a7098736b29503c41026ff60cca904094">org.qtproject.qt5.android.bindings.QtApplication</a>
+, <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a9b41df58aada132667b9af5a8aa01aa7">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onKeyShortcut
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#a1ce0a33219f8c6103b216ed433ceeefe">org.qtproject.qt5.android.bindings.QtApplication</a>
+</li>
+<li>onKeyUp
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#a947623196f7f382c1c2bf0737697082d">org.qtproject.qt5.android.bindings.QtApplication</a>
+, <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#ac81bcf0a973ed2f8035bc3af8ee73f78">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onLowMemory()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a60dde1c5c76102c0514119fbc9515450">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onMenuItemSelected()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a15f3f492aba46975a36f1ebdfbe5ba45">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onMenuOpened()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#afa718d6a5777a519b1d513d7cbda938a">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onNewIntent()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a995502b7cf803efcecc91d345b030404">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onOptionsItemSelected()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a1062f0dfba41ba945835041b94bfe4fa">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onOptionsMenuClosed()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#aad115f4cdaebb71916b85ac6309a83c4">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onPanelClosed()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a2b39eac5b8b7003b20171ddce6b16e37">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onPause()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a54af4563a2a1f3ea73187c2e9b9b042c">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onPostCreate()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a1a206c815af224d5bf06e5c921f4fdd4">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onPostResume()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#af23189d66db86a4a4356af8481450fa1">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onPrepareDialog()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a7c23883f7117af2b20250150e032935d">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onPrepareOptionsMenu()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a71a7e747de798c51b6a385b5e8a99c61">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onPreparePanel()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a668c15554849a0bce9422eb709b5cacc">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onRestart()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a05a1cabee75d99161959de7575052b73">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onRestoreInstanceState()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a0dd64ece074eb6909bb384a63105083b">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onResume()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a136a4d6d46f5a88c6e2b9866fa78fc64">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onRetainNonConfigurationInstance()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a5954d45f88dd09deba757e671de9077d">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onSaveInstanceState()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#ab32e70bfe633f137c58c82a96bf68f8f">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onSearchRequested()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#aa1c033b0b0bbc4cb9c193b239992fcb8">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onStart()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a5d86c0f23d31274741575dbf916814d1">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onStop()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a2fa87ac6c9b33749654fb05211d7d894">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onTerminate()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#a643840ad1a423ebcae10f20c6dcf98d0">org.qtproject.qt5.android.bindings.QtApplication</a>
+</li>
+<li>onTitleChanged()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#ab084cdaffe2c7638d6c7e1255aecec3c">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onTouchEvent()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#ada200302a153c7dbab3e55b746a7a179">org.qtproject.qt5.android.bindings.QtActivity</a>
+, <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#ad8a6d1d7da859063ec8e5ba5b3db06c1">org.qtproject.qt5.android.bindings.QtApplication</a>
+</li>
+<li>onTrackballEvent
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#aba0550a56d08380fb00cef9cc1a276d1">org.qtproject.qt5.android.bindings.QtApplication</a>
+, <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a27faf58c38193faea2782ff85cedb567">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onUserInteraction()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a3917d7d3ac6ab5bf31444d31b2784828">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onUserLeaveHint()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a86f980854e12f7cf5c8a91f7cbd875d7">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onWindowAttributesChanged()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#af881fa829fb552af632f8b1bba96f351">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>onWindowFocusChanged()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#ab161d356ebf5044a00182ffaf79d3437">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
+<li>partieTerminee
+: <a class="el" href="class_main_window.html#a00d26707b5d27cc6ce07479a46244692">MainWindow</a>
+</li>
+<li>pixmapEmptyEmplacement
+: <a class="el" href="class_main_window.html#a40ca81795033b7d295527bc860f716cf">MainWindow</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_q"></a>- q -</h3><ul>
+<li>QtTAG
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#acf8f3131e19aaef5fc2079bc530f42d6">org.qtproject.qt5.android.bindings.QtApplication</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
+<li>resetCurseur()
+: <a class="el" href="class_main_window.html#a3ab75adb0221eb5e362f2070f71ebc22">MainWindow</a>
+</li>
+<li>resetJeton()
+: <a class="el" href="classjoueur.html#a15c0ea5487cf6800e373cb1b1ed52b12">joueur</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
+<li>setCurseur()
+: <a class="el" href="class_main_window.html#a8e9fb499b85eef1d31b4caedcdad3424">MainWindow</a>
+</li>
+<li>setEmplacementDeplace()
+: <a class="el" href="class_main_window.html#a1eefa05031d74694e4249a8c68741122">MainWindow</a>
+</li>
+<li>setJoueur()
+: <a class="el" href="classemplacement.html#a9e57590839f9c185d962030b221b8ea1">emplacement</a>
+</li>
+<li>setLettre()
+: <a class="el" href="classjoueur.html#a6095d00e5c84a98694ae3f2ebbef48d8">joueur</a>
+</li>
+<li>setQtActivityDelegate()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#ac47f64e358a18d99b3f41756fe4a7849">org.qtproject.qt5.android.bindings.QtApplication</a>
+</li>
+<li>super_dispatchKeyEvent()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a0222dd1edd412d5573914d8e563d8dfc">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_dispatchPopulateAccessibilityEvent()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a174082c8c4aa301a2a8c78ce237bca22">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_dispatchTouchEvent()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a8525630fd66e1d88e94f7bc9457bbd1b">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_dispatchTrackballEvent()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a84a82b3eb7dd352d126c55272c64264a">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onActivityResult()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a03bf6f3f50c07592cbee97ce9ebdb315">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onApplyThemeResource()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a03b4db053b9528617c37bab2d47fc803">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onAttachedToWindow()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a7155f32de8ac1f383e18250f28cd1f97">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onBackPressed()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a84b318d75dea61b3aa2743fb475c90da">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onChildTitleChanged()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#ac369eb38a2ea1f7a0d61c44a30d63620">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onConfigurationChanged()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a1c7f2e1b1ce16f2bfa70f38d88740565">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onContentChanged()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a65dc57b70d42eb56f6bc12f7e0c49022">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onContextItemSelected()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a7281a498436213e739110753b357c0bd">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onContextMenuClosed()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a1b845060cb1ae8dde9bb8a60339b9468">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onCreateContextMenu()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#ae235bff28fac3ae862e49a1fc52caf15">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onCreateDescription()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a213a5e7065a1b53244d8b3642a23b2e4">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onCreateDialog()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a946099e0315e24f0c40338b69e0d1cdf">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onCreateOptionsMenu()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a25d0cb2383a485b28f53026ebe050dd4">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onCreatePanelMenu()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a3d105b186ba9bf7d089699dbd5ca3c45">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onCreatePanelView()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#ab37f48e1ce50767f29be1cebd4fc96e0">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onCreateThumbnail()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a2af36b766142fa45fa77623e549112ac">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onCreateView()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a4e054eb047b9531cc8abaa75039136f2">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onDetachedFromWindow()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a103cd6d406de520a7c30fa31a704ee11">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onKeyDown()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#af7fbc3d78f28c7599fac81499717ac8d">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onKeyLongPress()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#ad723f98cf99880c9467f96f73fa25878">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onKeyMultiple()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a108ba4840f9990f299beb44cced0a45d">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onKeyUp()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a0e236df83e1edd02ba8587199fc47e05">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onMenuItemSelected()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a054b8b51a53012f32a3d30bf395c18ca">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onMenuOpened()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#ab1719c7260a5641289249620984077bd">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onNewIntent()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#afb8a02b6c2e3c8e868f8cce113f50b18">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onOptionsItemSelected()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#aab1ebb0d4fe4429af0b9e79a4a6295ad">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onOptionsMenuClosed()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#abd8ef4d5f57f3046c3065cbe806f690b">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onPanelClosed()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a5f9ad8da2fcebff92ef8c86583091d75">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onPrepareDialog()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#aacc652635f4bf45e2fa182dc44e8df13">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onPrepareOptionsMenu()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a9f7f63be6b9a75253b784e80bfa74f69">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onPreparePanel()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#ab8af6f3b5a5b4547829dc68e7c31fd86">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onRestoreInstanceState()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a73303f1db92072963fe8592eb05b0258">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onRetainNonConfigurationInstance()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a4fa6ba75523273de5b492052f1ae06f0">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onSaveInstanceState()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a8fb26c42bd8d7516bf863cc5fb50e287">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onSearchRequested()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a41f90d68a12b8140f7b0f4c4037c2567">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onTitleChanged()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#aa3982942fa042ca69a13ffbaff0ef403">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onTouchEvent()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a216ec445b2cc31beac2032e38dd5e949">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onTrackballEvent()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a4ee363f63dfde917e450b70c8880fef9">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onUserInteraction()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a706d78309b31669959a98b46952de75c">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onUserLeaveHint()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#ae71ad183d13c1bbb1fd1dccee12dde24">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onWindowAttributesChanged()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#aa510558df5227f66d81d6119389e7886">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>super_onWindowFocusChanged()
+: <a class="el" href="classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a3d01ed848c426f937fe18214ff006931">org.qtproject.qt5.android.bindings.QtActivity</a>
+</li>
+<li>surBrille()
+: <a class="el" href="classjoueur.html#a6c718c04f1db54452e366aeaddeb249d">joueur</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_t"></a>- t -</h3><ul>
+<li>timerTour
+: <a class="el" href="class_main_window.html#a6d86dd50bcd7dc534fbc9fd374260554">MainWindow</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_v"></a>- v -</h3><ul>
+<li>vider()
+: <a class="el" href="classemplacement.html#ada71fd6bec4969e4ef5be1a610d712a4">emplacement</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_0x7e"></a>- ~ -</h3><ul>
+<li>~help()
+: <a class="el" href="classhelp.html#a390de3ebd37e8a7070992d9e642e70f5">help</a>
+</li>
+<li>~MainWindow()
+: <a class="el" href="class_main_window.html#ae98d00a93bc118200eeef9f9bba1dba7">MainWindow</a>
+</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Généré le Lundi Décembre 9 2013 17:48:32 pour Carré chinois par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
+  </ul>
+</div>
+</body>
+</html>

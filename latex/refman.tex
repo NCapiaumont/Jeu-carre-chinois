@@ -1,0 +1,109 @@
+\documentclass{book}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
+\usepackage{makeidx}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{ifthen}
+\usepackage[table]{xcolor}
+\usepackage{textcomp}
+\usepackage{alltt}
+\usepackage{ifpdf}
+\ifpdf
+\usepackage[pdftex,
+            pagebackref=true,
+            colorlinks=true,
+            linkcolor=blue,
+            unicode
+           ]{hyperref}
+\else
+\usepackage[ps2pdf,
+            pagebackref=true,
+            colorlinks=true,
+            linkcolor=blue,
+            unicode
+           ]{hyperref}
+\usepackage{pspicture}
+\fi
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+
+\usepackage{mathptmx}
+\usepackage[scaled=.90]{helvet}
+\usepackage{courier}
+\usepackage{sectsty}
+\usepackage{amssymb}
+\usepackage[titles]{tocloft}
+\usepackage{doxygen}
+\lstset{language=C++,inputencoding=utf8,basicstyle=\footnotesize,breaklines=true,breakatwhitespace=true,tabsize=8,numbers=left }
+\makeindex
+\setcounter{tocdepth}{3}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\familydefault}{\sfdefault}
+\hfuzz=15pt
+\setlength{\emergencystretch}{15pt}
+\hbadness=750
+\tolerance=750
+\begin{document}
+\hypersetup{pageanchor=false,citecolor=blue}
+\begin{titlepage}
+\vspace*{7cm}
+\begin{center}
+{\Large Carré chinois \\[1ex]\large v1.\-0 }\\
+\vspace*{1cm}
+{\large Généré par Doxygen 1.8.1.2}\\
+\vspace*{0.5cm}
+{\small Lundi Décembre 9 2013 17:48:32}\\
+\end{center}
+\end{titlepage}
+\clearemptydoublepage
+\pagenumbering{roman}
+\tableofcontents
+\clearemptydoublepage
+\pagenumbering{arabic}
+\hypersetup{pageanchor=true,citecolor=blue}
+\chapter{Liste des choses à faire}
+\label{todo}
+\hypertarget{todo}{}
+\input{todo}
+\chapter{Liste des bogues}
+\label{bug}
+\hypertarget{bug}{}
+\input{bug}
+\chapter{Index des espaces de nommage}
+\input{namespaces}
+\chapter{Index des classes}
+\input{annotated}
+\chapter{Index des fichiers}
+\input{files}
+\chapter{Documentation des espaces de nommage}
+\input{namespaceorg}
+\input{namespaceorg_1_1qtproject}
+\input{namespaceorg_1_1qtproject_1_1qt5}
+\input{namespaceorg_1_1qtproject_1_1qt5_1_1android}
+\input{namespaceorg_1_1qtproject_1_1qt5_1_1android_1_1bindings}
+\input{namespace_ui}
+\chapter{Documentation des classes}
+\input{classemplacement}
+\input{classhelp}
+\input{classjoueur}
+\input{class_main_window}
+\input{classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity}
+\input{classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application}
+\chapter{Documentation des fichiers}
+\input{_qt_activity_8java}
+\input{_qt_application_8java}
+\input{emplacement_8cpp}
+\input{emplacement_8h}
+\input{help_8cpp}
+\input{help_8h}
+\input{joueur_8cpp}
+\input{joueur_8h}
+\input{main_8cpp}
+\input{mainwindow_8cpp}
+\input{mainwindow_8h}
+\printindex
+\end{document}
